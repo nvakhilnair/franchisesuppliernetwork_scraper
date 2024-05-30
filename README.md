@@ -11,13 +11,13 @@ This repository contains a Dockerfile and a Scrapy spider for scraping franchise
 3. **Build the Docker Image**: Run the following command to build the Docker image:
 
     ```bash
-    docker build -t scrapy-app .
+    docker build -t franchise_scrapy .
     ```
 
 4. **Run the Docker Container**: Use the following command to run the Docker container. Replace `/path/to/local/directory` with the directory where you want to save the output files:
 
     ```bash
-    docker run -v /path/to/local/directory/output:/app/output scrapy-app
+    docker run -v /path/to/local/directory:/app/output franchise_scrapy
     ```
 
 ## About Saved Files
