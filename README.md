@@ -39,3 +39,22 @@ For understanding the structure and content of the output data, please refer to 
 
 - [Notes Doc](https://docs.google.com/document/d/1prsJgQHLV1x2Bi2i74Kv5ZD_3_E6rc5FG6qHU45uNec/edit?usp=sharing)
 - [Scrape Report Doc](https://docs.google.com/document/d/1vGhceUd_91wUktXpdtU40IPjIQj0GiLas477Nlgau4s/edit?usp=sharing)
+
+## Instruction to Run in Cloud(Amazon EC2 instance)
+
+### Prerequisites
+    - AWS account
+    - SSH key pair for accessing EC2 instance
+
+### Steps
+    - Create an EC2 Instance in AWS and configure it
+    - SSH into the EC2 Instance from Your Local Machine
+    - Install Git on the EC2 Instance
+    - Clone this Repository
+    - Install Docker Engine on the EC2 Instance
+    - Navigate to the cloned repository
+    - Build the Docker image from the Dockerfile as mentioned above
+    - Run the Docker container.
+
+#### Note:
+	- Output files will be on the EC2 instance server now.
