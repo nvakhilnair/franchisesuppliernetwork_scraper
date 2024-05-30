@@ -2,6 +2,8 @@
 
 This repository contains a Dockerfile and a Scrapy spider for scraping franchise information. Follow the steps below to run the spider using Docker.
 
+Find the Analysis report as the a csv file named `scrape_report.csv` also with reference doc of it named `scrape_report.pdf`
+
 ## Steps to Run
 
 1. **Clone the Repository**: Clone this repository to your local machine.
